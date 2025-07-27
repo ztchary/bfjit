@@ -6,6 +6,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
+#define ZCU_IMPLEMENTATION
 #include "zcu.h"
 
 #define PROGRAM_MEM 30000
